@@ -13,8 +13,6 @@ load_dotenv()
 # Add these state management variables at the top
 conversation_states = {}
 
-os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
-os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("AZURE_OPENAI_API_KEY")
 
 # Azure LLM Initialization
 # llm = AzureChatOpenAI(
